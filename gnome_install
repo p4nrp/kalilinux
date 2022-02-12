@@ -27,3 +27,23 @@ restart
     reboot 
     
 pilih Default Xsession    
+
+
+(ubah ke xfce )
+    
+    sudo update-alternatives --config x-session-manager
+    
+CEK    
+    
+    cat /etc/x11/default-display-manager
+    
+SET 
+
+    sudo dpkg-reconfigure lightdm
+    
+Restart
+    
+    reboot
+    
+ 
+ 
