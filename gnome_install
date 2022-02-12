@@ -1,0 +1,29 @@
+Update repo 
+  
+   apt update -y
+  
+install package gnome 
+  
+   sudo apt install kali-desktop-gnome -y
+   
+ cek Default display
+ 
+    cat /etc/x11/default-display-manager
+    
+ubah ke gnome 
+
+    sudo dpkg-reconfigure gdm3
+    
+cek Default display
+    
+    cat /etc/x11/default-display-manager
+    
+set x-session-manager
+    
+    sudo update-alternatives --config x-session-manager
+    
+restart 
+  
+    reboot 
+    
+pilih Default Xsession    
